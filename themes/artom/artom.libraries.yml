@@ -5,15 +5,15 @@ global-styling:
 
 bootstrap-scripts:
   js:
-    bootstrap/js/affix.js: {}
-    bootstrap/js/alert.js: {}
-    bootstrap/js/button.js: {}
-    bootstrap/js/carousel.js: {}
-    bootstrap/js/collapse.js: {}
-    bootstrap/js/dropdown.js: {}
-    bootstrap/js/modal.js: {}
-    bootstrap/js/tooltip.js: {}
-    bootstrap/js/popover.js: {}
-    bootstrap/js/scrollspy.js: {}
-    bootstrap/js/tab.js: {}
-    bootstrap/js/transition.js: {}
+    bootstrap/javascripts/affix.js: {}
+    bootstrap/javascripts/alert.js: {}
+    bootstrap/javascripts/button.js: {}
+    bootstrap/javascripts/carousel.js: {}
+    bootstrap/javascripts/collapse.js: {}
+    bootstrap/javascripts/dropdown.js: {}
+    bootstrap/javascripts/modal.js: {}
+    bootstrap/javascripts/tooltip.js: {}
+    bootstrap/javascripts/popover.js: {}
+    bootstrap/javascripts/scrollspy.js: {}
+    bootstrap/javascripts/tab.js: {}
+    bootstrap/javascripts/transition.js: {}
