@@ -1,0 +1,53 @@
+==== 06.07.16 ==== CSS of Atom
+/* colors */
+.orange {
+	color: #EA5A0C;
+}
+.blue {
+	color: #007BC1;
+}
+.black {
+	color: #0E273C;
+}
+
+/* text styles */
+h1 {
+	font-family: OpenSans-Light;
+	font-size: 40px;
+	color: #FFFFFF;
+}
+h2 {
+	font-family: OpenSans-Bold;
+	font-size: 35px;
+	color: #0E273C;
+}
+h3 {
+	font-family: OpenSansLight-Italic;
+	font-size: 25px;
+	color: #0E273C;
+	letter-spacing: 0px;
+}
+h4 {
+	font-family: OpenSans-Bold;
+	font-size: 16px;
+	color: #007BC1;
+	letter-spacing: 0px;
+}
+p {
+	font-family: SourceSansPro-Regular;
+	font-size: 16px;
+	color: #0E273C;
+	letter-spacing: 0px;
+	line-height: 26px;
+}
+a.white {
+	font-family: SourceSansPro-Bold;
+	font-size: 14px;
+	color: #007BC1;
+}
+a.blue {
+	font-family: SourceSansPro-Bold;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+========

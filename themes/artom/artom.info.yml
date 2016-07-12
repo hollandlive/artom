@@ -2,7 +2,7 @@ core: 8.x
 type: theme
 base theme: bootstrap
 
-name: 'Artom Bootstrap Sub-Theme'
+name: 'Artom sub-Theme'
 description: 'Uses the Bootstrap framework SASS'
 package: 'Bootstrap'
 
@@ -10,6 +10,7 @@ regions:
   navigation: 'Navigation'
   navigation_collapsible: 'Navigation (Collapsible)'
   header: 'Top Bar'
+  jumbotron: 'Jumbotron'
   highlighted: 'Highlighted'
   help: 'Help'
   content: 'Content'

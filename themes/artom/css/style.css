@@ -8791,3 +8791,113 @@ button.close {
     display: none !important;
   }
 }
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 6, 2016, 3:27:55 PM
+    Author     : art
+*/
+/* ====== Navbar Customizationn ========= */
+/* Navbar Customization */
+/* line 25, ../assets/sass/_custom_art.scss */
+.navbar-default {
+  background-color: #fff;
+  border-color: #fff;
+}
+/* line 29, ../assets/sass/_custom_art.scss */
+.navbar-default .navbar-brand {
+  color: #000;
+}
+/* line 31, ../assets/sass/_custom_art.scss */
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #fff;
+}
+/* line 33, ../assets/sass/_custom_art.scss */
+.navbar-default .navbar-text {
+  color: #000;
+}
+/* line 35, ../assets/sass/_custom_art.scss */
+.navbar-default .navbar-nav {
+  float: right;
+  margin: 18px;
+}
+/* line 40, ../assets/sass/_custom_art.scss */
+.navbar-default .navbar-nav > li {
+  display: block;
+  width: 100px;
+  height: 60px;
+  background-color: #fff;
+  text-align: center;
+}
+/* line 46, ../assets/sass/_custom_art.scss */
+.navbar-default .navbar-nav > li:hover, .navbar-default .navbar-nav > li:focus {
+  background-color: #EA5A0C;
+}
+/* line 49, ../assets/sass/_custom_art.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #000;
+}
+/* line 51, ../assets/sass/_custom_art.scss */
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+}
+/* line 54, ../assets/sass/_custom_art.scss */
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #EA5A0C;
+}
+/* line 58, ../assets/sass/_custom_art.scss */
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #fff;
+  background-color: #EA5A0C;
+}
+/* line 61, ../assets/sass/_custom_art.scss */
+.navbar-default .navbar-toggle {
+  border-color: #EA5A0C;
+}
+/* line 63, ../assets/sass/_custom_art.scss */
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #EA5A0C;
+}
+/* line 65, ../assets/sass/_custom_art.scss */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #000;
+}
+/* line 67, ../assets/sass/_custom_art.scss */
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #000;
+}
+/* line 70, ../assets/sass/_custom_art.scss */
+.navbar-default .navbar-link {
+  color: #000;
+}
+/* line 72, ../assets/sass/_custom_art.scss */
+.navbar-default .navbar-link:hover {
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  /* line 76, ../assets/sass/_custom_art.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > li {
+    background-color: #EA5A0C;
+    display: block;
+    width: 100%;
+  }
+  /* line 83, ../assets/sass/_custom_art.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > a {
+    text-align: center;
+    color: #000;
+  }
+  /* line 86, ../assets/sass/_custom_art.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > a:focus {
+    color: #fff;
+  }
+  /* line 89, ../assets/sass/_custom_art.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #fff;
+  }
+}
