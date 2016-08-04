@@ -2,9 +2,12 @@
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/../../bootstrap/stylesheets/bootstrap/blob/master/LICENSE)
- */
+Artom drupal sub-theme
+author: a
+version: 0.0.1
+*/
 
-// Core variables and mixins
+//Core variables and mixins 
 @import "variables";
 @import "../../bootstrap/stylesheets/bootstrap/mixins";
 
@@ -54,4 +57,25 @@
 // Utility classes
 @import "../../bootstrap/stylesheets/bootstrap/utilities";
 @import "../../bootstrap/stylesheets/bootstrap/responsive-utilities";
-@import "custom_art";
+//@import "component";
+
+/* BASE - base styles, variables, mixins, etc */
+
+@import "base/_variables.scss";
+@import "base/_mixins.scss";
+@import "base/_normalize.scss";
+@import "base/_base.scss";
+
+/* Modules - Individual site components */
+
+@import "modules/_typography.scss";
+@import "modules/_blocks.scss";
+@import "modules/_buttons.scss";
+@import "modules/_sections.scss";
+@import "modules/_components.scss";
+
+/* Layouts - base styles, variables, mixins, etc */
+
+@import "layouts/_nav.scss";
+@import "layouts/_header.scss";
+@import "layouts/_footer.scss";

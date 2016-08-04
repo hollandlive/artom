@@ -5,3 +5,30 @@
  *
  * Place your custom PHP code in this file.
  */
+  /**
+        * Implements hook_preprocess_html().
+        */
+  /*     function artom_preprocess_block(&$variables) {
+           // add to classes
+           $variables['expertise_image'] = '../themes/artom/img/ecommerce.png';
+           $variables['expertise_image2'] = '../themes/artom/img/Home.png';
+           $variables['expertise_image3'] = '../themes/artom/img/Netwerk.png';
+           $variables['expertise_image4'] = '../themes/artom/img/Mobile.png';
+           
+}*/
+
+
+/*
+function artom_preprocess_field(&vars) {
+  if ($vars['element']['#field_name'] == 'field_article_category') {
+    $vars['label'] = '<i class="fa fa-folder fa-lg" aria-hidden="true"></i>';
+      array_walk($vars['items'], function(&$element) {$element['#options']['attributes']['class'][] = 'label label-primary';});
+    // dpm($vars);
+  }
+  
+    if ($vars['element']['#field_name'] == 'field_tags') {
+    $vars['label'] = '<i class="fa fa-tags fa-lg" aria-hidden="true"></i>';
+    array_walk($vars['items'], function(&element) {$element['#options']['attributes']['class'][] = 'label label-primary';});
+    // dpm($vars);
+  }
+}*/

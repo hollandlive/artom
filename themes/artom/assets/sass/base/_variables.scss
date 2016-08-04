@@ -1,0 +1,35 @@
+/* 
+    Created on : Jul 20, 2016, 1:58:33 PM
+    Author     : Art Aksenovs
+*/
+
+/* Main Colors, Fonts and other variables for Artom Subtheme */
+
+// * Main colors of Artom Subtheme * //
+
+$artomOrange    : #EA5A0C;
+$artomBlue      : #007BC1;
+$artomBlack     : #0E273C;
+$artomLightenBlue : rgba (0,123,193, 0.6);
+$artomWhite     : #fff;
+$artomGrey      : #f6f6f6;
+$backgroundImage  : url('../img/headerBG.jpg');
+
+// * Main fonts of Artom Subtheme * //
+//Open Sans - light, light italic, bold//
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
+//Source Sans Pro - regular, bold //
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400);
+
+
+
+
+// Font variables
+$openSans       : 'Open Sans', sans-serif; 
+$openSansPro    : 'Source Sans Pro', sans-serif;
+
+//Font sizes
+$base-font-size : 16px;
+$base-link-size : 14px;

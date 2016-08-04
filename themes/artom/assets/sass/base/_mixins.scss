@@ -1,0 +1,23 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 20, 2016, 1:59:14 PM
+    Author     : art
+mixins - functions - blocks of code
+*/
+@mixin border-radius($radius){
+    -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin add-border($size, $color, $position) {
+  @if $position == 'all'{
+    border:$size solid $color;
+  } @else if $position == 'top' {
+    border-top: $size solid $color;
+  }
+}

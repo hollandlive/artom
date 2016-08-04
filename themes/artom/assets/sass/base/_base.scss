@@ -1,0 +1,182 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 20, 2016, 1:47:37 PM
+    Author     : art
+    voor alle tags <h1>, <html> etc
+
+*/
+
+body { 
+  
+  
+}
+
+a {
+  font-family: $openSansPro;
+  color: $artomBlue;
+  
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+p {
+  font-family: $openSansPro;
+  font-size: $base-font-size;
+}
+
+h1, h2, h3, h4 {
+  font-family: $openSans;
+  color: $artomBlack; 
+  text-align: center;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: bold;
+  }
+ h3 {
+    font-size: 25px;
+    font-style: italic;
+    margin: 30px 20px;
+  }
+
+/*.jumbotron {
+  //background-color: $artomBlue;
+   background-image: $backgroundImage;
+}*/
+
+h2.white {
+  font-weight: normal;
+  color: white;
+  /*padding-left: 200px;*/
+}
+
+p.text.white {
+  color: white;
+  text-align: center;
+  font-size: $base-font-size;
+  /*padding-left: 200px;*/
+}
+
+.jumbotron {
+  max-height: 250px;
+  background: 
+    /* top, transparent red */ 
+    linear-gradient(
+      rgba(0,123,193, 0.6), 
+      rgba(0,123,193, 0.6)
+    ),
+    /* bottom, image */
+    $backgroundImage;
+  > p {
+    font-size: $base-font-size;
+  }
+}
+
+button.btn.btn-danger {
+  background-color: $artomOrange;
+  height: 75px;
+  width: 200px;
+  text-align: center;
+  border: solid 2px white;
+  border-radius: 4px;
+  position: relative;
+  bottom: 100px;
+  margin-left: 50px;
+}
+
+@media (max-width: 1160px) {
+  button.btn.btn-danger {
+    
+      background-color: $artomOrange;
+      position: relative;
+      top: 5px;
+      display: block;
+      width: 100%;
+      padding: 20px 0px;
+      margin: 20px 0px;
+      z-index: 100;
+  }
+  h2.white {
+    padding-left: 0px;
+    text-align: center;
+    z-index: 222;
+  }
+  
+  p.text.white {
+    padding-left: 0px;
+    text-align: center;
+  }
+      
+    /*> a {
+      text-align: center;
+      color: $colDefault;
+      &:hover, &:focus {
+        color: $colHighlight; }}
+    > .active {
+      > a, > a:hover, > a:focus, {
+        color: $colHighlight;
+       }}}*/
+}
+
+
+
+.pull-right {
+    margin-top: -60px;
+    color: $artomWhite;
+    
+}
+p.pull-right {
+  font-size: $base-font-size;
+}
+
+.orangedot {
+  >span {
+    color: $artomOrange;
+  }
+}
+
+//
+.region-expertises {
+  background-color: $artomGrey;
+
+}
+/*.block-views-block-expertises-view-block-1 {
+  background-color: gainsboro;
+}*/
+   
+//img -responsive
+.img-responsive {
+    text-align: center;
+    
+}
+
+div .buttongroup {
+  width: auto;
+  min-height: 75px;
+  text-align: center;
+  background-color: white;
+  padding-top: 20px;
+}
+
+.btn-group > .btn, .btn-group-vertical > .btn {
+    margin: 15px 25px 35px 75px;
+    padding: 15px;
+    
+}
+
+.btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+    border-radius: 10px;
+}
+
+/*.btn-group>.btn, 
+.btn-group>.dropdown-toggle {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-radius: 10px;
+}*/

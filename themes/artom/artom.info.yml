@@ -10,13 +10,17 @@ regions:
   navigation: 'Navigation'
   navigation_collapsible: 'Navigation (Collapsible)'
   header: 'Top Bar'
-  jumbotron: 'Jumbotron'
+  expertises: 'Expertises'
+  cases: 'Cases'
+  reasons: 'Reasons'
+  clients: 'Clients'
+  footer: 'Footer'
   highlighted: 'Highlighted'
   help: 'Help'
   content: 'Content'
   sidebar_first: 'Primary'
   sidebar_second: 'Secondary'
-  footer: 'Footer'
+  
   page_top: 'Page top'
   page_bottom: 'Page bottom'
   
@@ -26,3 +30,4 @@ stylesheets-remove:
 libraries:
   - 'artom/global-styling'
   - 'artom/bootstrap-scripts'
+  - 'artom/fonts'
