@@ -30,4 +30,4 @@ stylesheets-remove:
 libraries:
   - 'artom/global-styling'
   - 'artom/bootstrap-scripts'
-  - 'artom/fonts'
+  - 'artom/font-awesome'

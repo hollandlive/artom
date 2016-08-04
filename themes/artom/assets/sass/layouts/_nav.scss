@@ -16,11 +16,12 @@ $bgHighlight    : #EA5A0C;
 $colDefault     : #000;
 $colHighlight   : #fff;
 $widthLi        : 100px;
-$heightLi       : 60px;
+$widthLiMob     : 100%;
+$heightLi       : 80px;
 $alignLinks     : center;
 $paddingNavbar  : 5px;
 
-.navbar-default {
+/*.navbar-default {
   @include add-border(1px, $bgHighlight, 'top' );
   background-color: $bgDefault;
   border-color: $bgDefault;
@@ -82,9 +83,10 @@ $paddingNavbar  : 5px;
   .navbar-default .navbar-nav .open .dropdown-menu {
     > li {
       background-color: $bgHighlight; 
-      display: block;
-      width: 175px; }  
+       }  
     > a {
+      display: block;
+      width: $widthLiMob;
       text-align: center;
       color: $colDefault;
       &:hover, &:focus {
@@ -94,8 +96,4 @@ $paddingNavbar  : 5px;
         color: $colHighlight;
        }}}
 } 
-
-.bottom {
-  background-color: $artomGrey;
-  margin-top: 70px;
-}
+*/
