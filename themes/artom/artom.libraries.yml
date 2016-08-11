@@ -23,3 +23,12 @@ font-awesome:
   css:
     theme: 
       vendor/font-awesome/css/font-awesome.min.css: {}
+base:
+  version: VERSION 1.0
+  
+  js:
+    js/artom.js: {}
+  dependencies: 
+    - core/jquery
+  
+    

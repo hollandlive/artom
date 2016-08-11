@@ -1,5 +1,4 @@
-{{ attach_library('artom/base') }}
-{% set container = theme.settings.fluid_container ? 'container-fluid' : 'container' %}
+ {% set container = theme.settings.fluid_container ? 'container-fluid' : 'container' %} 
 {# Navbar #}
 {% if page.navigation or page.navigation_collapsible %}
   {% block navbar %}
@@ -47,68 +46,8 @@
           </div>
         {% endblock %}
       {% endif %}
-    </div>
-      
-      
-      
-      {# Expertises #}
-      {% if page.expertises %}
-        {% block expertises %}
-         <div class="row">
-          
-            {{ page.expertises }}
-        
-         </div>
-        {% endblock %}
-      {% endif %}
-      
-      
-      {# Expertises #}
-      {% if page.cases %}
-        {% block cases %}
-         <div class="row">
-          
-            {{ page.cases }}
-        
-         </div>
-        {% endblock %}
-      {% endif %}
-      
-      {# Reasons #}
-      {% if page.reasons %}
-        {% block reasons %}
-         <div class="row">
-          
-            {{ page.reasons }}
-        
-         </div>
-        {% endblock %}
-      {% endif %}
-      
-      
-      
-        {# Clients view #}
-      {% if page.clients %}
-        {% block clients %}
-         <div class="row">
-          
-            {{ page.clients }}
-        
-         </div>
-        {% endblock %}
-      {% endif %}    
-      
-  
-      
 
-      {# Sidebar First #}
-      {% if page.sidebar_first %}
-        {% block sidebar_first %}
-          <aside class="col-sm-3" role="complementary">
-            {{ page.sidebar_first }}
-          </aside>
-        {% endblock %}
-      {% endif %}
+
 
       {# Content #}
       {%
@@ -119,9 +58,17 @@
           page.sidebar_first is empty and page.sidebar_second is empty ? 'col-sm-12'
         ]
       %}
+      <section{{ content_attributes.addClass(content_classes) }}>
 
 
- 
+        {# Content #}
+        {% block content %}
+          <a id="main-content"></a>
+          {{ page.content }}
+        {% endblock %}
+      </section>
+
+
     </div>
   </div>
 {% endblock %}

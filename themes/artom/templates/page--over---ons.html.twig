@@ -1,4 +1,4 @@
-{{ attach_library('artom/base') }}
+
 {% set container = theme.settings.fluid_container ? 'container-fluid' : 'container' %}
 {# Navbar #}
 {% if page.navigation or page.navigation_collapsible %}
@@ -34,81 +34,58 @@
   {% endblock %}
 {% endif %}
 
+
+
+{# Content #}
+      {%
+        set content_classes = [
+          page.sidebar_first and page.sidebar_second ? 'col-sm-6',
+          page.sidebar_first and page.sidebar_second is empty ? 'col-sm-9',
+          page.sidebar_second and page.sidebar_first is empty ? 'col-sm-9',
+          page.sidebar_first is empty and page.sidebar_second is empty ? 'col-sm-12'
+        ]
+      %}
+      <section{{ content_attributes.addClass(content_classes) }}>
+
+
 {# Main #}
 {% block main %}
   <div role="main" class="main-container {{ container }} js-quickedit-main-content">
     <div class="row">
 
-      {# Header #}
+    {# Header #}
       {% if page.header %}
         {% block header %}
           <div class="col-sm-12" role="heading">
+            {{ dump (page.header) }} 
             {{ page.header }}
           </div>
         {% endblock %}
       {% endif %}
-    </div>
+    </div> 
       
       
+
       
-      {# Expertises #}
-      {% if page.expertises %}
-        {% block expertises %}
+      
+      {# Over Ons #}
+      {% if page.over_ons %}
+        {% block over_ons %}
          <div class="row">
           
-            {{ page.expertises }}
+          {{ dump (page.over_ons) }} 
         
          </div>
         {% endblock %}
       {% endif %}
       
+
       
-      {# Expertises #}
-      {% if page.cases %}
-        {% block cases %}
-         <div class="row">
-          
-            {{ page.cases }}
-        
-         </div>
-        {% endblock %}
-      {% endif %}
-      
-      {# Reasons #}
-      {% if page.reasons %}
-        {% block reasons %}
-         <div class="row">
-          
-            {{ page.reasons }}
-        
-         </div>
-        {% endblock %}
-      {% endif %}
-      
-      
-      
-        {# Clients view #}
-      {% if page.clients %}
-        {% block clients %}
-         <div class="row">
-          
-            {{ page.clients }}
-        
-         </div>
-        {% endblock %}
-      {% endif %}    
+
       
   
       
 
-      {# Sidebar First #}
-      {% if page.sidebar_first %}
-        {% block sidebar_first %}
-          <aside class="col-sm-3" role="complementary">
-            {{ page.sidebar_first }}
-          </aside>
-        {% endblock %}
-      {% endif %}
 
       {# Content #}
       {%
@@ -132,4 +109,4 @@
       {{ page.footer }}
     </footer>
   {% endblock %}
-{% endif %}
+{% endif %} 

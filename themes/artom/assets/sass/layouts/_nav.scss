@@ -21,7 +21,7 @@ $heightLi       : 80px;
 $alignLinks     : center;
 $paddingNavbar  : 5px;
 
-/*.navbar-default {
+.navbar-default {
   @include add-border(1px, $bgHighlight, 'top' );
   background-color: $bgDefault;
   border-color: $bgDefault;
@@ -96,4 +96,4 @@ $paddingNavbar  : 5px;
         color: $colHighlight;
        }}}
 } 
-*/
+

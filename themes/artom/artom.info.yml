@@ -12,6 +12,7 @@ regions:
   header: 'Top Bar'
   expertises: 'Expertises'
   cases: 'Cases'
+  team: 'Team Members'
   reasons: 'Reasons'
   clients: 'Clients'
   footer: 'Footer'
@@ -31,3 +32,4 @@ libraries:
   - 'artom/global-styling'
   - 'artom/bootstrap-scripts'
   - 'artom/font-awesome'
+  - 'artom/base'

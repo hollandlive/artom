@@ -31,4 +31,17 @@ function artom_preprocess_field(&vars) {
     array_walk($vars['items'], function(&element) {$element['#options']['attributes']['class'][] = 'label label-primary';});
     // dpm($vars);
   }
-}*/
+} */
+
+/*function artom_preprocess_image(&$variables) {
+  // add image classes 
+  // if($variables['image_shape'] == 'img-circle') {
+    if (!isset($variables['attributes']['class'])) {
+      $variables['attributes']['class'] = array();
+    }
+    $variables['attributes']['class'] = array_merge($variables['attributes']['class'], array('img-circle'));  
+}
+
+  if (!empty($variables['uri'])) {
+    $variables['attributes']['src'] = file_url_transform_relative(file_create_url($variables['uri']));
+  }*/

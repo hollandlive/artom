@@ -15,6 +15,10 @@ body {
   
 }
 
+
+.fa {
+  margin-right: 15px;
+}
 a {
   font-family: $openSansPro;
   color: $artomBlue;
@@ -29,7 +33,7 @@ p {
   font-size: $base-font-size;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
   font-family: $openSans;
   color: $artomBlack; 
   text-align: center;
@@ -154,4 +158,62 @@ p.pull-right {
 .img-responsive {
     text-align: center;
     
+}
+
+p.col-md-3.infolist {
+  color: red;
+}
+
+.numberCircle {
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+
+    background: #fff;
+    border: 2px solid #666;
+    color: #666;
+    text-align: center;
+
+    font: 32px Arial, sans-serif;
+}
+
+.circle-blueline {
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+
+    width: 150px;
+    height: 150px;
+    padding: 8px;
+    border: 2px solid $artomBlue;
+    > img {
+      display: block;
+      position: relative;
+      width: 65%;
+    }
+   
+}
+
+h4.text.blue {
+    color: $artomBlue;
+    font-size: $base-font-size;
+}
+
+p.infolist {
+    font-size: 14px;
+}
+
+
+
+
+.btn.btn-info {
+    background-color: $artomBlue;
+    border-radius: 10px;
+    border: 2px solid $artomWhite;
+    margin: 0 10px 0 10px;
+    padding: 10px 10px 10px 10px;
+    color: $artomWhite;
+    font-size: 12px;
 }
