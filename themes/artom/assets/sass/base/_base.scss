@@ -6,24 +6,23 @@ and open the template in the editor.
 /* 
     Created on : Jul 20, 2016, 1:47:37 PM
     Author     : art
-    voor alle tags <h1>, <html> etc
+    Base .scss bestaand voor voor alle tags <h1>, <html> etc
 
 */
 
 body { 
-  
-  
+
 }
-
-
+//zetten margin voor linkse margin font-awesome
 .fa {
   margin-right: 15px;
 }
+
 a {
   font-family: $openSansPro;
   color: $artomBlue;
   
-  font-size: 16px;
+  font-size: 14px;
   text-decoration: none;
   text-align: center;
 }
@@ -214,6 +213,8 @@ p.infolist {
     border: 2px solid $artomWhite;
     margin: 0 10px 0 10px;
     padding: 10px 10px 10px 10px;
+    > a {
     color: $artomWhite;
-    font-size: 12px;
+    font-size: 16px;
+    }
 }

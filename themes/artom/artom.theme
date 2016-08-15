@@ -35,7 +35,8 @@ function artom_preprocess_field(&vars) {
 
 /*function artom_preprocess_image(&$variables) {
   // add image classes 
-  // if($variables['image_shape'] == 'img-circle') {
+   if($variables['image_shape'] == 'img-circle') {
+ // kint($variables);
     if (!isset($variables['attributes']['class'])) {
       $variables['attributes']['class'] = array();
     }
@@ -44,4 +45,23 @@ function artom_preprocess_field(&vars) {
 
   if (!empty($variables['uri'])) {
     $variables['attributes']['src'] = file_url_transform_relative(file_create_url($variables['uri']));
-  }*/
+  }
+
+}*/
+/*function artom_preprocess_page(&$variables) {
+// kint($variables);
+    if ($node = \Drupal::request()->attributes->get('node')) {
+        if ($node->field_team_member_headshot->entity) {
+            $variables['field_team_member_headshot'] = file_create_url($node->field_team_member_headshot->entity->getFileUri());
+        }
+    }
+}*/
+
+function artom_preprocess_field(&$variables, $hook) {
+
+  $element = $variables['element'];
+
+  if ($element['#field_name'] == 'field_team_member_headshot') {
+    $variables['items'][0]['content']['#options']['attributes']['class'][] = 'img-circle';
+  }
+}
