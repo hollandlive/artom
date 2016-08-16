@@ -92,9 +92,28 @@ div.col-md-1 {
 
   #top_over_ons {
     margin: 94px 292px 137px 215px;
+    text-align: center;
+  }
+  
+  #middle_over_ons {
+    margin: 100px 292px 137px 215px;
+    padding: 50px 0px;
+    text-align: center;
   }
   @media (max-width: 760px ) {
-    #top_over_ons {
+    #top_over_ons, #middle_over_ons {
     margin: 20px;
   }
+  img {
+    text-align: center;
+  }
+  }
+  
+  h3.namesurname {
+    font-size: 25px;
+    margin: 40px 5px 8px;
+  }
+
+  p.teamfunction {
+    text-align: center;
   }

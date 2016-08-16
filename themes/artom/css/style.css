@@ -4451,7 +4451,7 @@ select[multiple].input-lg,
 }
 /* line 32, ../bootstrap/stylesheets/bootstrap/_buttons.scss */
 .btn:hover, .btn:focus, .btn.focus {
-  color: #333;
+  color: #007BC1;
   text-decoration: none;
 }
 /* line 39, ../bootstrap/stylesheets/bootstrap/_buttons.scss */
@@ -4477,33 +4477,33 @@ a.btn.disabled, fieldset[disabled] a.btn {
 
 /* line 68, ../bootstrap/stylesheets/bootstrap/_buttons.scss */
 .btn-default {
-  color: #333;
+  color: #007BC1;
   background-color: #fff;
-  border-color: #ccc;
+  border-color: #007BC1;
 }
 /* line 11, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default:focus, .btn-default.focus {
-  color: #333;
+  color: #007BC1;
   background-color: #e6e6e6;
-  border-color: #8c8c8c;
+  border-color: #002a42;
 }
 /* line 17, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default:hover {
-  color: #333;
+  color: #007BC1;
   background-color: #e6e6e6;
-  border-color: #adadad;
+  border-color: #005484;
 }
 /* line 22, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
-  color: #333;
+  color: #007BC1;
   background-color: #e6e6e6;
-  border-color: #adadad;
+  border-color: #005484;
 }
 /* line 29, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default:active:hover, .btn-default:active:focus, .btn-default:active.focus, .btn-default.active:hover, .btn-default.active:focus, .btn-default.active.focus, .open > .btn-default.dropdown-toggle:hover, .open > .btn-default.dropdown-toggle:focus, .open > .btn-default.dropdown-toggle.focus {
-  color: #333;
+  color: #007BC1;
   background-color: #d4d4d4;
-  border-color: #8c8c8c;
+  border-color: #002a42;
 }
 /* line 37, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
@@ -4512,12 +4512,12 @@ a.btn.disabled, fieldset[disabled] a.btn {
 /* line 45, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default.disabled:hover, .btn-default.disabled:focus, .btn-default.disabled.focus, .btn-default[disabled]:hover, .btn-default[disabled]:focus, .btn-default[disabled].focus, fieldset[disabled] .btn-default:hover, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default.focus {
   background-color: #fff;
-  border-color: #ccc;
+  border-color: #007BC1;
 }
 /* line 53, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default .badge {
   color: #fff;
-  background-color: #333;
+  background-color: #007BC1;
 }
 
 /* line 71, ../bootstrap/stylesheets/bootstrap/_buttons.scss */
@@ -8922,14 +8922,38 @@ div.col-md-1 {
 /* line 93, ../assets/sass/base/_normalize.scss */
 #top_over_ons {
   margin: 94px 292px 137px 215px;
+  text-align: center;
+}
+
+/* line 98, ../assets/sass/base/_normalize.scss */
+#middle_over_ons {
+  margin: 100px 292px 137px 215px;
+  padding: 50px 0px;
+  text-align: center;
 }
 
 @media (max-width: 760px) {
-  /* line 97, ../assets/sass/base/_normalize.scss */
-  #top_over_ons {
+  /* line 104, ../assets/sass/base/_normalize.scss */
+  #top_over_ons, #middle_over_ons {
     margin: 20px;
   }
+
+  /* line 107, ../assets/sass/base/_normalize.scss */
+  img {
+    text-align: center;
+  }
 }
+/* line 112, ../assets/sass/base/_normalize.scss */
+h3.namesurname {
+  font-size: 25px;
+  margin: 40px 5px 8px;
+}
+
+/* line 117, ../assets/sass/base/_normalize.scss */
+p.teamfunction {
+  text-align: center;
+}
+
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -9148,6 +9172,34 @@ p.infolist {
 .btn.btn-info > a {
   color: #fff;
   font-size: 16px;
+  text-decoration: none;
+}
+
+/* line 223, ../assets/sass/base/_base.scss */
+.btn.btn-default {
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid #007BC1;
+  margin: 0 10px 0 10px;
+  padding: 10px 10px 10px 10px;
+}
+/* line 229, ../assets/sass/base/_base.scss */
+.btn.btn-default > a {
+  color: #007BC1;
+  font-size: 16px;
+  text-decoration: none;
+  /*&:hover,  &:focus {
+        background-color: $artomWhite; }*/
+}
+
+/* line 239, ../assets/sass/base/_base.scss */
+.view-content .views-row {
+  background-color: #f6f6f6;
+  padding: 20px 20px 20px 20px;
+}
+/* line 242, ../assets/sass/base/_base.scss */
+.view-content .views-row > img {
+  border-radius: 50%;
 }
 
 /* Modules - Individual site components */

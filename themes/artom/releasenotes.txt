@@ -1,0 +1,82 @@
+==== 06.07.16 ==== CSS of Atom
+/* colors */
+.orange {
+	color: #EA5A0C;
+}
+.blue {
+	color: #007BC1;
+}
+.black {
+	color: #0E273C;
+}
+
+/* text styles */
+h1 {
+	font-family: OpenSans-Light;
+	font-size: 40px;
+	color: #FFFFFF;
+}
+h2 {
+	font-family: OpenSans-Bold;
+	font-size: 35px;
+	color: #0E273C;
+}
+h3 {
+	font-family: OpenSansLight-Italic;
+	font-size: 25px;
+	color: #0E273C;
+	letter-spacing: 0px;
+}
+h4 {
+	font-family: OpenSans-Bold;
+	font-size: 16px;
+	color: #007BC1;
+	letter-spacing: 0px;
+}
+p {
+	font-family: SourceSansPro-Regular;
+	font-size: 16px;
+	color: #0E273C;
+	letter-spacing: 0px;
+	line-height: 26px;
+}
+a.white {
+	font-family: SourceSansPro-Bold;
+	font-size: 14px;
+	color: #007BC1;
+}
+a.blue {
+	font-family: SourceSansPro-Bold;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+========
+Al gedaan
+
+15.08.2016 door Art Aksenovs
+
+- Contact block module geïnstalleerd 
+-	Blog view maken
+
+16.08.2016
+
+- block onder over-ons view op de pagina over_ons aanmaken/stylen - 1hr
+- button btn ban-default stijlen in sass - 0,75 hr;
+- content toevoegen over ons - 0,75 hr
+- stijlen van grijs area onder team-fotos - 0,5 hr
+- stijlen van field name onder team foto + renderen (TWIG veld via block settings) - 0,75 hr
+- stijlen van field functie onder team foto - 0,25 hr
+- hoofdtekst op view "Over ons" aanmaken en stijlen - 1hr
+
+
+-	Img-responsive class verwijderen, img-circle class toevoegen (ik heb walk around gedaan via CSS)
+
+====================================
+To do list for Atom web-site
+
+
+
+-	JQuery plugin voor Drupal 8 schrijven voor “get hired” knopje: In mobile versie het moet naar beneden komen tussen twee ‘div’s’ (bijvoorbeeld Jumbotron en row grey)
+-	Contact formulier moet gestild worden volgens het ontwerp
+-	Acceptatie (Testen) omgeving inrichten
+- block onder over-ons view op de pagina over_ons aanmaken

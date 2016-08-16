@@ -216,5 +216,30 @@ p.infolist {
     > a {
     color: $artomWhite;
     font-size: 16px;
+    text-decoration: none;
     }
+}
+
+.btn.btn-default {
+  text-align: center;
+    border-radius: 10px;
+    border: 2px solid $artomBlue;
+    margin: 0 10px 0 10px;
+    padding: 10px 10px 10px 10px;
+    > a {
+    color: $artomBlue;
+    font-size: 16px;
+    text-decoration: none;
+    /*&:hover,  &:focus {
+          background-color: $artomWhite; }*/
+    }
+}
+
+//to make images round on the page pver ons
+.view-content .views-row {
+  background-color: $artomGrey;
+  padding: 20px 20px 20px 20px;
+  > img {
+    border-radius: 50%;
+  }
 }

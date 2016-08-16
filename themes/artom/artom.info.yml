@@ -15,6 +15,7 @@ regions:
   team: 'Team Members'
   reasons: 'Reasons'
   clients: 'Clients'
+  location: 'Vestigingen'
   footer: 'Footer'
   highlighted: 'Highlighted'
   help: 'Help'
