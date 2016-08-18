@@ -104,8 +104,9 @@ div.col-md-1 {
     #top_over_ons, #middle_over_ons {
     margin: 20px;
   }
-  img {
+  .img-responsive {
     text-align: center;
+    display: block;
   }
   }
   
@@ -117,3 +118,9 @@ div.col-md-1 {
   p.teamfunction {
     text-align: center;
   }
+  .row.graybar {
+    background-color: $artomGrey;
+    margin: 0px 0px;
+    
+  }
+  

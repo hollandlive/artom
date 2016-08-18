@@ -30,3 +30,15 @@ and open the template in the editor.
   }
 }
 
+.map {
+  background-image: $mapHolland;
+  background-repeat: no-repeat;
+  min-height: 800px;
+  background-position: 50% 50%;
+}
+@media (max-width: 560px) {
+  .map {
+    min-height: 400px;
+    width: auto;
+  }
+}

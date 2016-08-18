@@ -8939,19 +8939,26 @@ div.col-md-1 {
   }
 
   /* line 107, ../assets/sass/base/_normalize.scss */
-  img {
+  .img-responsive {
     text-align: center;
+    display: block;
   }
 }
-/* line 112, ../assets/sass/base/_normalize.scss */
+/* line 113, ../assets/sass/base/_normalize.scss */
 h3.namesurname {
   font-size: 25px;
   margin: 40px 5px 8px;
 }
 
-/* line 117, ../assets/sass/base/_normalize.scss */
+/* line 118, ../assets/sass/base/_normalize.scss */
 p.teamfunction {
   text-align: center;
+}
+
+/* line 121, ../assets/sass/base/_normalize.scss */
+.row.graybar {
+  background-color: #f6f6f6;
+  margin: 0px 0px;
 }
 
 /*
@@ -9193,12 +9200,12 @@ p.infolist {
 }
 
 /* line 239, ../assets/sass/base/_base.scss */
-.view-content .views-row {
+.team .view-content .views-row {
   background-color: #f6f6f6;
   padding: 20px 20px 20px 20px;
 }
 /* line 242, ../assets/sass/base/_base.scss */
-.view-content .views-row > img {
+.team .view-content .views-row > img {
   border-radius: 50%;
 }
 
@@ -9420,4 +9427,20 @@ and open the template in the editor.
   border-radius: 10px;
   border: 2px solid #fff;
   width: 150px;
+}
+
+/* line 33, ../assets/sass/layouts/_footer.scss */
+.map {
+  background-image: url("../img/map.png");
+  background-repeat: no-repeat;
+  min-height: 800px;
+  background-position: 50% 50%;
+}
+
+@media (max-width: 560px) {
+  /* line 40, ../assets/sass/layouts/_footer.scss */
+  .map {
+    min-height: 400px;
+    width: auto;
+  }
 }

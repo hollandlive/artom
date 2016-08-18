@@ -18,6 +18,10 @@ bootstrap-scripts:
     bootstrap/javascripts/bootstrap/tab.js: {}
     bootstrap/javascripts/bootstrap/transition.js: {}
     
+dependencies: 
+    - core/jquery
+    - core/drupal
+    
 font-awesome:
   version: 4.6.3
   css:
@@ -30,5 +34,21 @@ base:
     js/artom.js: {}
   dependencies: 
     - core/jquery
+    
+sample_library:
+  css:
+    # For some reason, you need to put css under 'theme'.
+    theme:
+      css/example.css: {}
+  js:
+    # For some reason, you need to put the js directly under 'js'.
+    js/example.js: {}
+  dependencies:
+    # jQuery is not included by default, so we add it as a dependency
+    - core/jquery
+    # We are also going to use jQuery.once so that code doesn't trigger multiple times.
+    - core/jquery.once
+    # drupal and drupalSettings are not included by default either.
+    - core/drupal
   
     

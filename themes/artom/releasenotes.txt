@@ -79,4 +79,4 @@ To do list for Atom web-site
 -	JQuery plugin voor Drupal 8 schrijven voor “get hired” knopje: In mobile versie het moet naar beneden komen tussen twee ‘div’s’ (bijvoorbeeld Jumbotron en row grey)
 -	Contact formulier moet gestild worden volgens het ontwerp
 -	Acceptatie (Testen) omgeving inrichten
-- block onder over-ons view op de pagina over_ons aanmaken
+
