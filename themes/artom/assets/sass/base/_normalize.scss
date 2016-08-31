@@ -30,6 +30,7 @@ input {
 
 ul, li {
   list-style: none;
+  padding-left: 0px;
   > .col-md-1 {
   margin-left: -20px;
   }
@@ -123,6 +124,39 @@ div.col-md-1 {
     margin: 0px 0px;
     
   }
+  // default links - text-align - center
+  a {
+    text-align: center;
+  }
+  // default divs - text-align - center
+  /*div {
+    text-align: center;
+  }*/
   
+  img {
+    text-align: cneter;
+  }
+button.btn-info {
+      padding: 10px;
+      margin: 10px;
+      
+    }
   
-  
+  .btn.btn-info.whitebutton {
+        margin: 30px;
+        background-color: $artomWhite;
+        border: 2px solid $artomBlue;
+        > a {
+          color: $artomBlue;
+        }
+      }
+      
+      .col-md-12 {
+        text-align: center;
+      }
+
+      .case-title {
+        > h2 {
+          color: red;
+        }
+      }

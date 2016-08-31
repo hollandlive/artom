@@ -1,16 +1,13 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
 /* 
     Created on : Jul 20, 2016, 1:47:37 PM
     Author     : art
-    Base .scss bestaand voor voor alle tags <h1>, <html> etc
-
+    Base .scss bestaand voor voor alle tags <h1>, <html> et
 */
 
 body { 
+  > button {
+    text-align: center;
+  }
 
 }
 //zetten margin voor linkse margin font-awesome
@@ -21,7 +18,6 @@ body {
 a {
   font-family: $openSansPro;
   color: $artomBlue;
-  
   font-size: 14px;
   text-decoration: none;
   text-align: center;
@@ -42,34 +38,27 @@ h2 {
     font-size: 35px;
     font-weight: bold;
   }
- h3 {
+h3 {
     font-size: 25px;
     font-style: italic;
     margin: 30px 20px;
   }
 
-/*.jumbotron {
-  //background-color: $artomBlue;
-   background-image: $backgroundImage;
-}*/
-
 h2.white {
   font-weight: normal;
   color: white;
-  /*padding-left: 200px;*/
 }
 
 p.text.white {
   color: white;
   text-align: center;
   font-size: $base-font-size;
-  /*padding-left: 200px;*/
 }
 
 .jumbotron {
   max-height: 250px;
   background: 
-    /* top, transparent red */ 
+    /* top, transparent blue */ 
     linear-gradient(
       rgba(0,123,193, 0.6), 
       rgba(0,123,193, 0.6)
@@ -127,8 +116,6 @@ button.btn.btn-danger {
        }}}*/
 }
 
-
-
 .pull-right {
     margin-top: -60px;
     color: $artomWhite;
@@ -163,37 +150,18 @@ p.col-md-3.infolist {
   color: red;
 }
 
-.numberCircle {
-    border-radius: 50%;
-    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
 
-    width: 36px;
-    height: 36px;
-    padding: 8px;
 
-    background: #fff;
-    border: 2px solid #666;
-    color: #666;
-    text-align: center;
 
-    font: 32px Arial, sans-serif;
-}
 
-.circle-blueline {
-    border-radius: 50%;
-    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
 
-    width: 150px;
-    height: 150px;
-    padding: 8px;
-    border: 2px solid $artomBlue;
-    > img {
-      display: block;
-      position: relative;
-      width: 65%;
-    }
-   
-}
+
+
+
+
+
+
+
 
 h4.text.blue {
     color: $artomBlue;
@@ -243,3 +211,112 @@ p.infolist {
     border-radius: 50%;
   }
 }
+
+//style voor blauwe links
+.field-content {
+  > span {
+   /* text-align: center; */
+  }
+  
+  > a {
+    
+    text-align: center;
+    font-size: 16px;
+    
+    text-decoration: none;
+    margin: 0 auto;
+  }
+  
+} 
+
+.circle-blueline {
+  > img {
+    text-align: center;
+   
+  }
+}
+
+.expertises {
+  > .col-md-3, .col-sm-6 {
+    text-align: center;
+  }
+  > .view-footer {
+    > .btn.btn-info {
+    text-align: center;
+  }
+  }
+  
+}
+.whitebutton {
+  text-align: center;
+}
+
+.views-field .views-field-title {
+  
+  > .field-content {
+    > span {
+        font-size: 20px;
+    }
+  }
+
+}
+
+.reasons-title {
+  font-size: $base-font-size;
+  color: $artomBlue;
+  position: relative;
+  z-index: -11;
+  }
+  
+  .form-group {
+    display: block;
+    
+  }
+
+
+  
+.field-content.infolist {
+    padding-left: 50px;
+    padding-right: 64px;
+    }
+
+    
+    
+// Front-page - Styles for Case Blocks 
+    h4.case-title {
+      margin-left: 35px;
+      color: $artomBlue;
+    }
+    p.case-title {
+      margin-left: 35px;
+      margin-right: 35px;
+      margin-bottom: 40px;
+    }
+    div.case-title {
+      margin-left: 35px;
+      margin-bottom: 40px;
+    }
+    div.field-content.readmore {
+      margin-left: 415px;
+      margin-top: -85px;
+    }
+    div.field-content.readmore1 {
+      margin-left: 95px;
+      margin-top: 15px;
+      margin-bottom: 35px;
+    }
+// Front-page - Styles for Case Blocks
+    h4.reasons-title {
+          margin-left: 105px;
+          color: $artomBlue;
+        }
+    h5.reasons-title {
+      margin-left: 105px;
+      margin-top: 25px;
+      color: $artomBlack;
+      line-height: 1.5em;
+    }
+    btn.reasons-title {
+      margin-left: 105px;
+      margin-bottom: 50px;
+    }

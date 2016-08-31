@@ -8849,24 +8849,25 @@ input {
 /* line 31, ../assets/sass/base/_normalize.scss */
 ul, li {
   list-style: none;
+  padding-left: 0px;
 }
-/* line 33, ../assets/sass/base/_normalize.scss */
+/* line 34, ../assets/sass/base/_normalize.scss */
 ul > .col-md-1, li > .col-md-1 {
   margin-left: -20px;
 }
 
-/* line 38, ../assets/sass/base/_normalize.scss */
+/* line 39, ../assets/sass/base/_normalize.scss */
 .col-sm-12 {
   padding-left: 0px;
   padding-right: 0px;
 }
 
-/* line 43, ../assets/sass/base/_normalize.scss */
+/* line 44, ../assets/sass/base/_normalize.scss */
 .jumbotron {
   margin-bottom: 0px;
 }
 
-/* line 48, ../assets/sass/base/_normalize.scss */
+/* line 49, ../assets/sass/base/_normalize.scss */
 .container .jumbotron {
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
@@ -8876,36 +8877,36 @@ ul > .col-md-1, li > .col-md-1 {
   border-radius: 0px;*/
 }
 
-/* line 55, ../assets/sass/base/_normalize.scss */
+/* line 56, ../assets/sass/base/_normalize.scss */
 .navbar {
   margin-bottom: 0px;
   border: 0px;
 }
 
-/* line 60, ../assets/sass/base/_normalize.scss */
+/* line 61, ../assets/sass/base/_normalize.scss */
 div.col-md-1 {
   min-width: 130px;
 }
 
-/* line 64, ../assets/sass/base/_normalize.scss */
+/* line 65, ../assets/sass/base/_normalize.scss */
 .col-md-4 {
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 50px;
 }
-/* line 68, ../assets/sass/base/_normalize.scss */
+/* line 69, ../assets/sass/base/_normalize.scss */
 .col-md-4 > h4.row {
   margin: 0px;
 }
 
-/* line 73, ../assets/sass/base/_normalize.scss */
+/* line 74, ../assets/sass/base/_normalize.scss */
 .col-md-2 {
   padding-top: 30px;
   padding-bottom: 30px;
   padding-right: 50px;
 }
 
-/* line 79, ../assets/sass/base/_normalize.scss */
+/* line 80, ../assets/sass/base/_normalize.scss */
 .col-md-1 {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -8913,19 +8914,19 @@ div.col-md-1 {
   margin-right: 30px;
 }
 
-/* line 87, ../assets/sass/base/_normalize.scss */
+/* line 88, ../assets/sass/base/_normalize.scss */
 .col-md-3 > p {
   padding-left: 15px;
   padding-right: 15px;
 }
 
-/* line 93, ../assets/sass/base/_normalize.scss */
+/* line 94, ../assets/sass/base/_normalize.scss */
 #top_over_ons {
   margin: 94px 292px 137px 215px;
   text-align: center;
 }
 
-/* line 98, ../assets/sass/base/_normalize.scss */
+/* line 99, ../assets/sass/base/_normalize.scss */
 #middle_over_ons {
   margin: 100px 292px 137px 215px;
   padding: 50px 0px;
@@ -8933,51 +8934,90 @@ div.col-md-1 {
 }
 
 @media (max-width: 760px) {
-  /* line 104, ../assets/sass/base/_normalize.scss */
+  /* line 105, ../assets/sass/base/_normalize.scss */
   #top_over_ons, #middle_over_ons {
     margin: 20px;
   }
 
-  /* line 107, ../assets/sass/base/_normalize.scss */
+  /* line 108, ../assets/sass/base/_normalize.scss */
   .img-responsive {
     text-align: center;
     display: block;
   }
 }
-/* line 113, ../assets/sass/base/_normalize.scss */
+/* line 114, ../assets/sass/base/_normalize.scss */
 h3.namesurname {
   font-size: 25px;
   margin: 40px 5px 8px;
 }
 
-/* line 118, ../assets/sass/base/_normalize.scss */
+/* line 119, ../assets/sass/base/_normalize.scss */
 p.teamfunction {
   text-align: center;
 }
 
-/* line 121, ../assets/sass/base/_normalize.scss */
+/* line 122, ../assets/sass/base/_normalize.scss */
 .row.graybar {
   background-color: #f6f6f6;
   margin: 0px 0px;
 }
 
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
+/* line 128, ../assets/sass/base/_normalize.scss */
+a {
+  text-align: center;
+}
+
+/*div {
+  text-align: center;
+}*/
+/* line 136, ../assets/sass/base/_normalize.scss */
+img {
+  text-align: cneter;
+}
+
+/* line 139, ../assets/sass/base/_normalize.scss */
+button.btn-info {
+  padding: 10px;
+  margin: 10px;
+}
+
+/* line 145, ../assets/sass/base/_normalize.scss */
+.btn.btn-info.whitebutton {
+  margin: 30px;
+  background-color: #fff;
+  border: 2px solid #007BC1;
+}
+/* line 149, ../assets/sass/base/_normalize.scss */
+.btn.btn-info.whitebutton > a {
+  color: #007BC1;
+}
+
+/* line 154, ../assets/sass/base/_normalize.scss */
+.col-md-12 {
+  text-align: center;
+}
+
+/* line 159, ../assets/sass/base/_normalize.scss */
+.case-title > h2 {
+  color: red;
+}
+
 /* 
     Created on : Jul 20, 2016, 1:47:37 PM
     Author     : art
-    Base .scss bestaand voor voor alle tags <h1>, <html> etc
-
+    Base .scss bestaand voor voor alle tags <h1>, <html> et
 */
-/* line 17, ../assets/sass/base/_base.scss */
+/* line 8, ../assets/sass/base/_base.scss */
+body > button {
+  text-align: center;
+}
+
+/* line 14, ../assets/sass/base/_base.scss */
 .fa {
   margin-right: 15px;
 }
 
-/* line 21, ../assets/sass/base/_base.scss */
+/* line 18, ../assets/sass/base/_base.scss */
 a {
   font-family: "Source Sans Pro", sans-serif;
   color: #007BC1;
@@ -8986,62 +9026,56 @@ a {
   text-align: center;
 }
 
-/* line 30, ../assets/sass/base/_base.scss */
+/* line 26, ../assets/sass/base/_base.scss */
 p {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
 }
 
-/* line 35, ../assets/sass/base/_base.scss */
+/* line 31, ../assets/sass/base/_base.scss */
 h1, h2, h3 {
   font-family: "Open Sans", sans-serif;
   color: #0E273C;
   text-align: center;
 }
 
-/* line 41, ../assets/sass/base/_base.scss */
+/* line 37, ../assets/sass/base/_base.scss */
 h2 {
   font-size: 35px;
   font-weight: bold;
 }
 
-/* line 45, ../assets/sass/base/_base.scss */
+/* line 41, ../assets/sass/base/_base.scss */
 h3 {
   font-size: 25px;
   font-style: italic;
   margin: 30px 20px;
 }
 
-/*.jumbotron {
-  //background-color: $artomBlue;
-   background-image: $backgroundImage;
-}*/
-/* line 56, ../assets/sass/base/_base.scss */
+/* line 47, ../assets/sass/base/_base.scss */
 h2.white {
   font-weight: normal;
   color: white;
-  /*padding-left: 200px;*/
 }
 
-/* line 62, ../assets/sass/base/_base.scss */
+/* line 52, ../assets/sass/base/_base.scss */
 p.text.white {
   color: white;
   text-align: center;
   font-size: 16px;
-  /*padding-left: 200px;*/
 }
 
-/* line 69, ../assets/sass/base/_base.scss */
+/* line 58, ../assets/sass/base/_base.scss */
 .jumbotron {
   max-height: 250px;
   background: linear-gradient(rgba(0, 123, 193, 0.6), rgba(0, 123, 193, 0.6)), url("../img/headerBG.jpg");
 }
-/* line 79, ../assets/sass/base/_base.scss */
+/* line 68, ../assets/sass/base/_base.scss */
 .jumbotron > p {
   font-size: 16px;
 }
 
-/* line 84, ../assets/sass/base/_base.scss */
+/* line 73, ../assets/sass/base/_base.scss */
 button.btn.btn-danger {
   background-color: #EA5A0C;
   height: 75px;
@@ -9055,7 +9089,7 @@ button.btn.btn-danger {
 }
 
 @media (max-width: 1160px) {
-  /* line 97, ../assets/sass/base/_base.scss */
+  /* line 86, ../assets/sass/base/_base.scss */
   button.btn.btn-danger {
     background-color: #EA5A0C;
     position: relative;
@@ -9067,14 +9101,14 @@ button.btn.btn-danger {
     z-index: 100;
   }
 
-  /* line 108, ../assets/sass/base/_base.scss */
+  /* line 97, ../assets/sass/base/_base.scss */
   h2.white {
     padding-left: 0px;
     text-align: center;
     z-index: 222;
   }
 
-  /* line 114, ../assets/sass/base/_base.scss */
+  /* line 103, ../assets/sass/base/_base.scss */
   p.text.white {
     padding-left: 0px;
     text-align: center;
@@ -9090,23 +9124,23 @@ button.btn.btn-danger {
       color: $colHighlight;
      }}}*/
 }
-/* line 132, ../assets/sass/base/_base.scss */
+/* line 119, ../assets/sass/base/_base.scss */
 .pull-right {
   margin-top: -60px;
   color: #fff;
 }
 
-/* line 137, ../assets/sass/base/_base.scss */
+/* line 124, ../assets/sass/base/_base.scss */
 p.pull-right {
   font-size: 16px;
 }
 
-/* line 142, ../assets/sass/base/_base.scss */
+/* line 129, ../assets/sass/base/_base.scss */
 .orangedot > span {
   color: #EA5A0C;
 }
 
-/* line 148, ../assets/sass/base/_base.scss */
+/* line 135, ../assets/sass/base/_base.scss */
 .region-expertises {
   background-color: #f6f6f6;
 }
@@ -9114,60 +9148,28 @@ p.pull-right {
 /*.block-views-block-expertises-view-block-1 {
   background-color: gainsboro;
 }*/
-/* line 157, ../assets/sass/base/_base.scss */
+/* line 144, ../assets/sass/base/_base.scss */
 .img-responsive {
   text-align: center;
 }
 
-/* line 162, ../assets/sass/base/_base.scss */
+/* line 149, ../assets/sass/base/_base.scss */
 p.col-md-3.infolist {
   color: red;
 }
 
 /* line 166, ../assets/sass/base/_base.scss */
-.numberCircle {
-  border-radius: 50%;
-  behavior: url(PIE.htc);
-  /* remove if you don't care about IE8 */
-  width: 36px;
-  height: 36px;
-  padding: 8px;
-  background: #fff;
-  border: 2px solid #666;
-  color: #666;
-  text-align: center;
-  font: 32px Arial, sans-serif;
-}
-
-/* line 182, ../assets/sass/base/_base.scss */
-.circle-blueline {
-  border-radius: 50%;
-  behavior: url(PIE.htc);
-  /* remove if you don't care about IE8 */
-  width: 150px;
-  height: 150px;
-  padding: 8px;
-  border: 2px solid #007BC1;
-}
-/* line 190, ../assets/sass/base/_base.scss */
-.circle-blueline > img {
-  display: block;
-  position: relative;
-  width: 65%;
-}
-
-/* line 198, ../assets/sass/base/_base.scss */
 h4.text.blue {
   color: #007BC1;
   font-size: 16px;
 }
 
-/* line 203, ../assets/sass/base/_base.scss */
+/* line 171, ../assets/sass/base/_base.scss */
 p.infolist {
   font-size: 14px;
 }
 
-/* line 210, ../assets/sass/base/_base.scss */
+/* line 178, ../assets/sass/base/_base.scss */
 .btn.btn-info {
   background-color: #007BC1;
   border-radius: 10px;
@@ -9175,14 +9177,14 @@ p.infolist {
   margin: 0 10px 0 10px;
   padding: 10px 10px 10px 10px;
 }
-/* line 216, ../assets/sass/base/_base.scss */
+/* line 184, ../assets/sass/base/_base.scss */
 .btn.btn-info > a {
   color: #fff;
   font-size: 16px;
   text-decoration: none;
 }
 
-/* line 223, ../assets/sass/base/_base.scss */
+/* line 191, ../assets/sass/base/_base.scss */
 .btn.btn-default {
   text-align: center;
   border-radius: 10px;
@@ -9190,7 +9192,7 @@ p.infolist {
   margin: 0 10px 0 10px;
   padding: 10px 10px 10px 10px;
 }
-/* line 229, ../assets/sass/base/_base.scss */
+/* line 197, ../assets/sass/base/_base.scss */
 .btn.btn-default > a {
   color: #007BC1;
   font-size: 16px;
@@ -9199,14 +9201,121 @@ p.infolist {
         background-color: $artomWhite; }*/
 }
 
-/* line 239, ../assets/sass/base/_base.scss */
+/* line 207, ../assets/sass/base/_base.scss */
 .team .view-content .views-row {
   background-color: #f6f6f6;
   padding: 20px 20px 20px 20px;
 }
-/* line 242, ../assets/sass/base/_base.scss */
+/* line 210, ../assets/sass/base/_base.scss */
 .team .view-content .views-row > img {
   border-radius: 50%;
+}
+
+/* line 217, ../assets/sass/base/_base.scss */
+.field-content > span {
+  /* text-align: center; */
+}
+/* line 221, ../assets/sass/base/_base.scss */
+.field-content > a {
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+/* line 233, ../assets/sass/base/_base.scss */
+.circle-blueline > img {
+  text-align: center;
+}
+
+/* line 240, ../assets/sass/base/_base.scss */
+.expertises > .col-md-3, .expertises .col-sm-6 {
+  text-align: center;
+}
+/* line 244, ../assets/sass/base/_base.scss */
+.expertises > .view-footer > .btn.btn-info {
+  text-align: center;
+}
+
+/* line 250, ../assets/sass/base/_base.scss */
+.whitebutton {
+  text-align: center;
+}
+
+/* line 257, ../assets/sass/base/_base.scss */
+.views-field .views-field-title > .field-content > span {
+  font-size: 20px;
+}
+
+/* line 264, ../assets/sass/base/_base.scss */
+.reasons-title {
+  font-size: 16px;
+  color: #007BC1;
+  position: relative;
+  z-index: -11;
+}
+
+/* line 271, ../assets/sass/base/_base.scss */
+.form-group {
+  display: block;
+}
+
+/* line 278, ../assets/sass/base/_base.scss */
+.field-content.infolist {
+  padding-left: 50px;
+  padding-right: 64px;
+}
+
+/* line 286, ../assets/sass/base/_base.scss */
+h4.case-title {
+  margin-left: 35px;
+  color: #007BC1;
+}
+
+/* line 290, ../assets/sass/base/_base.scss */
+p.case-title {
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-bottom: 40px;
+}
+
+/* line 295, ../assets/sass/base/_base.scss */
+div.case-title {
+  margin-left: 35px;
+  margin-bottom: 40px;
+}
+
+/* line 299, ../assets/sass/base/_base.scss */
+div.field-content.readmore {
+  margin-left: 415px;
+  margin-top: -85px;
+}
+
+/* line 303, ../assets/sass/base/_base.scss */
+div.field-content.readmore1 {
+  margin-left: 95px;
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+
+/* line 309, ../assets/sass/base/_base.scss */
+h4.reasons-title {
+  margin-left: 105px;
+  color: #007BC1;
+}
+
+/* line 313, ../assets/sass/base/_base.scss */
+h5.reasons-title {
+  margin-left: 105px;
+  margin-top: 25px;
+  color: #0E273C;
+  line-height: 1.5em;
+}
+
+/* line 319, ../assets/sass/base/_base.scss */
+btn.reasons-title {
+  margin-left: 105px;
+  margin-bottom: 50px;
 }
 
 /* Modules - Individual site components */
@@ -9229,6 +9338,23 @@ and open the template in the editor.
     Created on : Jul 20, 2016, 2:00:49 PM
     Author     : art
 */
+/* line 12, ../assets/sass/modules/_blocks.scss */
+.img-thumb {
+  display: block;
+  position: relative;
+}
+/* line 15, ../assets/sass/modules/_blocks.scss */
+.img-thumb > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -9259,6 +9385,44 @@ and open the template in the editor.
 Here you put anything that doesn't belong to any of the above - for example, accordeons, tabs, jumbotron?
 
 */
+/* line 15, ../assets/sass/modules/_components.scss */
+.icon-thumb {
+  border: 2px solid #007BC1;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 22, ../assets/sass/modules/_components.scss */
+.icon-thumb > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+  margin-right: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+/* line 36, ../assets/sass/modules/_components.scss */
+.numberCircle {
+  border-radius: 50%;
+  behavior: url(PIE.htc);
+  /* remove if you don't care about IE8 */
+  width: 80px;
+  height: 80px;
+  padding: 15px;
+  background-color: #EA5A0C;
+  border: 2px solid #EA5A0C;
+  color: #fff;
+  text-align: center;
+  font: 32px Arial, sans-serif;
+  position: absolute;
+}
+
 /* Layouts - base styles, variables, mixins, etc */
 /*
 To change this license header, choose License Headers in Project Properties.
